@@ -1,0 +1,668 @@
+    1  teamviewer
+    2  ls
+    3  cd Downloads/
+    4  ls
+    5  cd
+    6  ls
+    7  cd Documents/
+    8  ls
+    9  cd
+   10  cd Installs/
+   11  mov libflashplayer.so usr/ readme.txt LGPL/ -r /Flash
+   12  mv libflashplayer.so usr/ readme.txt LGPL/ -r /Flash
+   13  mv --help
+   14  mv libflashplayer.so usr/ readme.txt LGPL/  /Flash
+   15  mv libflashplayer.so usr/ readme.txt LGPL/  Flash
+   16  ls
+   17  cd Flash/
+   18  ls
+   19  sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
+   20  ls
+   21  cd /usr/lib/mozilla/plugins/
+   22  ls
+   23  grep menuentry /boot/grub/grub.cfg
+   24  gksu gedit /etc/default/grub
+   25  sudo apt-get install gksu
+   26  gksu gedit /etc/default/grub
+   27  sudo bash
+   28  apt-get -f install skype
+   29  ls
+   30  ps
+   31  ps -a
+   32  ps --help
+   33  skype
+   34  ps all
+   35  top
+   36  skype
+   37  gksu gedit /etc/default/grub 
+   38  sudo update-grub
+   39  gdm
+   40  lightdm
+   41  apt-get install kubuntu-desktop 
+   42  logout
+   43  logoff
+   44  gdm
+   45  sudo basg
+   46  sudo bash
+   47  firefox
+   48  ls
+   49  grep --h
+   50  grep -i -r 'collection'
+   51  grep -i -rH 'collection'
+   52  grep -i -r -H 'collection'
+   53  grep -i -r -H --directories='read' 'collection'
+   54  grep -i -r -H --after-context=2 --before-context=1 'collection'
+   55  python
+   56  sudo apt-get install curl
+   57  snapshot
+   58  ksnapshot
+   59  cd ~/Downloads/Setup/
+   60  ls
+   61  cd zlib-1.2.8/
+   62  ./configure 
+   63  make
+   64  sudo make install
+   65  cd ..
+   66  cd libpng-1.6.21/
+   67  ls
+   68  ./configure 
+   69  make
+   70  make check
+   71  sudo make install
+   72  cd ..
+   73  cd freetype-2.6.2/
+   74  ls
+   75  ./configure 
+   76  make
+   77  sudo make install
+   78  pip install matplotlib
+   79  screen
+   80  python
+   81  ls
+   82  firefox
+   83  fg
+   84  bg
+   85  ls
+   86  sudo apt-get install git
+   87  gcc
+   88  clang
+   89  curl https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py | sudo python
+   90  sudo apt-get install curl &
+   91  sudo apt-get update
+   92  sudo apt-get install curl &
+   93  Y
+   94  sudo apt-get install curl &
+   95  ls
+   96  du
+   97  du -hsc
+   98  sudo apt-get install curl 
+   99  n
+  100  ls
+  101  sudo apt-get install curl 
+  102  exit
+  103  jobs
+  104  jobs -a
+  105  jobs -l
+  106  fg
+  107  ls
+  108  curl https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py | sudo python
+  109  curl https://bootstrap.pypa.io/get-pip.py | sudo python
+  110  pip -
+  111  pip --version
+  112  sudo pip install --upgrade setuptools
+  113  sudo pip install virtualenv
+  114  sudo pip install virtualenvwrapper
+  115  export WORK_HOME=~/Envs
+  116  echo ''
+  117  echo 'export WORK_HOME=~/Envs' >> ~/.bash_profile
+  118  echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bash_profile
+  119  ls
+  120  man mkdir
+  121  ls
+  122  cd Work
+  123  mkdir Work
+  124  cd Work
+  125  ls
+  126  mkdir py
+  127  cd py
+  128  mkdir -p $WORKON_HOME
+  129  mkdir -p $WORK_HOME
+  130  source ~/.bash_profile 
+  131  mkvirtualenv Test
+  132  deactivate 
+  133  workon Test
+  134  pip install django
+  135  python
+  136  deactivate 
+  137  python
+  138  workon Test
+  139  pip freeze
+  140  mkdir projects
+  141  cd projects/
+  142  ls
+  143  git clone https://github.com/econchick/new-coder.git
+  144  ls
+  145  git init
+  146  git remote add upstream https://github.com/econchick/new-coder.git
+  147  git pull upstream master
+  148  git sta
+  149  git status 
+  150  git branch dataviz
+  151  git checkout dataviz 
+  152  git status 
+  153  ls
+  154  ls new-coder/
+  155  ls
+  156  ls -lasrt
+  157  ls
+  158  cd new-coder/
+  159  ls
+  160  ls -lastr
+  161  ls
+  162  cd dataviz/
+  163  ls
+  164  mkvirtualenv DataViz
+  165  pip install -r requirements.txt 
+  166  ls
+  167  pip install numpy
+  168  pip install matplotlib
+  169  python
+  170  ls
+  171  pip install -r requirements.txt 
+  172  pip install numpy
+  173  pip install matplotlib
+  174  sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev
+  175  pip install matplotlib
+  176  firefox
+  177  bg
+  178  ls
+  179  git --help
+  180  git config --global user.name desirajusantosh@gmail.com
+  181  git config --global user.name desirajusantosh
+  182  git config --global user.name "desirajusantosh"
+  183  git config --global user.email "desirajusantosh@gmail.com"
+  184  apt-get install libgnome-keyring-deb
+  185  apt-get install libgnome-keyring-dev
+  186  sudo apt-get install libgnome-keyring-dev
+  187  git config --global credential.helper /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+  188  ls
+  189  mkdir hello-world
+  190  cd hello-world
+  191  ls
+  192  git init
+  193  touch README
+  194  ls
+  195  git add README
+  196  git commit -m 'first'
+  197  git remote add origin https://github.com/desirajusantosh/hello-world.git
+  198  git push origin master
+  199  sudo make --directory=/usr/share/doc/git/contrib/gnome-keyring
+  200  sudo make --directory=/usr/share/doc/git/contrib/credential/gnome-keyring
+  201  git config --global credential.helper /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+  202  git init
+  203  git add README
+  204  git commit -m 'first'
+  205  git remote add origin https://github.com/desirajusantosh/hello-world.git
+  206  git push origin master
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd -
+  211  ls
+  212  git config --global user.name "Santosh Desiraju"
+  213  git config --global user.email "desirajusantosh@gmail.com"
+  214  git config --global credential.helper
+  215  mkdir hello
+  216  cd hello
+  217  git init
+  218  touch README
+  219  git add README 
+  220  git commit -m 'first'
+  221  git remote add origin https://github.com/desirajusantosh/Random.git
+  222  git push origin master
+  223  chmod 0755 /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+  224  git remote add origin https://github.com/desirajusantosh/Random.git
+  225  git push origin master
+  226  vi /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+  227  which gi
+  228  which git
+  229  ls /usr/bin/git/
+  230  ls /usr/bin/
+  231  ls /usr/bin/git/
+  232  cd /usr/bin/git/
+  233  ls
+  234  which git
+  235  ls usr/share/doc
+  236  which gnome-keyring
+  237  ll /usr/bin/git/
+  238  ll /usr/bin/git/ *
+  239  ll /usr/bin/git/*
+  240  sudo apt-get update
+  241  sudo apt-get check
+  242  sudo apt-get autoclean
+  243  sudo apt-get purge
+  244  sudo apt-get install gir
+  245  sudo apt-get install git
+  246  sudo apt-get install 
+  247  sudo apt-get install github
+  248  sudo apt-get install git
+  249  sudo apt-get update gir
+  250  sudo apt-get update git
+  251  git
+  252  git --version
+  253  git clone 
+  254  cd  ..
+  255  ls
+  256  cd ..
+  257  s
+  258  ls
+  259  rm hello-world/
+  260  rm hello-world/ -r
+  261  y
+  262  git clone https://github.com/desirajusantosh/Scripts.git
+  263  ls
+  264  cd Scripts/
+  265  ls
+  266  cd Python/
+  267  ls
+  268  vi basics.py 
+  269  git add -A
+  270  git commit -m 'added more basics.py'
+  271  git push origin master
+  272  sublime
+  273  sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+  274  synaptic
+  275  ls
+  276  cd ..
+  277  ls
+  278  cd ..
+  279  ls
+  280  git clone https://github.com/desirajusantosh/DS.git
+  281  ls
+  282  cd DS/
+  283  ls
+  284  ipython
+  285  ls
+  286  ls Work/
+  287  ls Work/py/projects/
+  288  vi test.py
+  289  ls scrape
+  290  ls
+  291  vi Work/py/projects/new-coder/website/requirements.txt 
+  292  vi Work/py/projects/new-coder/scrape/requirements.txt 
+  293  python
+  294  pip install requests
+  295  python
+  296  su pip install requests
+  297  sudo pip install requests
+  298  python
+  299  sudo pip install pandas
+  300  vi test.py 
+  301  py test.py 
+  302  python test.py 
+  303  py test.py 
+  304  vi test.py 
+  305  python test.py 
+  306  vi test.py 
+  307  python test.py 
+  308  vi test.py 
+  309  python test.py 
+  310  vi test.py 
+  311  python test.py 
+  312  vi test.py 
+  313  python test.py 
+  314  vi test.py 
+  315  ipythin
+  316  ipython
+  317  ls
+  318  cd Downloads/
+  319  ls
+  320  bash Anaconda2-4.0.0-Linux-x86_64.sh 
+  321  git clone https://github.com/Kilian/f.lux-indicator-applet.g
+  322  git clone https://github.com/Kilian/f.lux-indicator-applet.git
+  323  ls
+  324  mv f.lux-indicator-applet/ Downloads/
+  325  ls
+  326  cd Downloads/
+  327  ls
+  328  cd f.lux-indicator-applet/
+  329  ls
+  330  sudo python setup.py install
+  331  fluxgui 
+  332  sudo apt-get install python-pexpect python-gconf python-appindicator
+  333  fluxgui 
+  334  sudo apt-get install gtk
+  335  fluxgui 
+  336  sudo apt-get install python-gtk2
+  337  fluxgui 
+  338  sudo apt-get install python-glade2
+  339  fluxgui 
+  340  fluxgui  &
+  341  fluxgui  --help
+  342  fluxgui  --h
+  343  fluxgui 
+  344  xflux
+  345  ls
+  346  xflux
+  347  xflux32
+  348  cat README 
+  349  cd ..
+  350  ls
+  351  gzip -d xflux64.tgz 
+  352  ls
+  353  mkdir data_course
+  354  mv *.csv data_course/
+  355  ls
+  356  mv MEGA-MASTERKEY.txt data_course/
+  357  mv ipython_notebook_tutorial.ipynb data_course/
+  358  ls Setup/
+  359  tar -xvf xflux64.tar 
+  360  ls
+  361  xflux
+  362  ls
+  363  ls xflux
+  364  cd xflux
+  365  xflux -z 95054
+  366  chmod 755 xflux
+  367  cp xflux /usr/bin/
+  368  sudo cp xflux /usr/bin/
+  369  sudo chmod 755 /usr/bin/xflux
+  370  xflux -z 95054
+  371  sudo cp xflux /usr/local/bin/
+  372  sudo chmod 755 /usr/local/bin/xflux
+  373  xflux -z 95054
+  374  ls
+  375  rm xflux64.tar 
+  376  rm xflux 
+  377  rm f.lux-indicator-applet/ -rf
+  378  ls
+  379  sudo ls
+  380  sudo rm f.lux-indicator-applet/ -rf 
+  381  ls
+  382  mv Anaconda2-4.0.0-Linux-x86_64.sh Setup/
+  383  ls
+  384  cd data_course/
+  385  ls
+  386  mkdir week1
+  387  mv *.csv week1/
+  388  ls
+  389  mv ipython_notebook_tutorial.ipynb week1/
+  390  ls
+  391  mv MEGA-MASTERKEY.txt week1/
+  392  ls
+  393  ks
+  394  ls
+  395  cd Downloads/
+  396  ls
+  397  ipython notebook ipython_notebook_tutorial.ipynb 
+  398  git
+  399  git shell
+  400  git-shell
+  401  git cline git@github.com:desirajusantosh/thinkster-django-angular-boilerplate.git
+  402  git clone git@github.com:desirajusantosh/thinkster-django-angular-boilerplate.git
+  403  putty
+  404  sudo apt-get install putty
+  405  sudo rm /var/lib/apt/lists/lock
+  406  sudo apt-get install putty
+  407  sudo rm /var/dpkg/lock
+  408  sudo rm /var/lib/dpkg/lock
+  409  sudo apt-get install putty
+  410  putty
+  411  ls
+  412  putty
+  413  sudo apt-get install putty
+  414  sudo rm /var/lib/dpkg/lock
+  415  sudo rm /var/cache/apt/archives/lock
+  416  sudo apt-get install putty
+  417  ls
+  418  cd Downloads/
+  419  ls
+  420  unzip thinkster-django-angular-boilerplate-release.zip 
+  421  ls
+  422  rm thinkster-django-angular-boilerplate-release.zip 
+  423  cd thinkster-django-angular-boilerplate-release/
+  424  cd ..
+  425  ls
+  426  mkvirtualenv thinkster-djangular
+  427  export PATH=/usr/local/bin:$PATH
+  428  source /usr/local/bin/virtualenvwrapper.sh
+  429  mkvirtualenv thinkster-djangular
+  430  cd thinkster-django-angular-boilerplate-release/
+  431  pip install -r requirements.txt 
+  432  pip install --upgrage pip
+  433  pip install --upgrade pip
+  434  npm install -g bower
+  435  sudo apt-get install npm
+  436  ls
+  437  vi test.tcl
+  438  dmesg
+  439  apt-get remove bcmwl-kernel-source
+  440  sudo bcmwl-kernel-source
+  441  sudo apt-get remove bcmwl-kernel-source
+  442  sudo dpkg --configure -a
+  443  history | grep install
+  444  apt-get remove npm
+  445  sudo apt-get remove npm
+  446  sudo rm /var/lib/apt/lists/lock
+  447  sudo apt-get autoclean
+  448  sudo apt-get clean
+  449  sudo apt-get autoremove 
+  450  sudo apt-get install -f
+  451  sudo apt-get remove bcwml-kernel-space
+  452  sudo apt-get remove openvpm
+  453  sudo apt-get remove openvpn
+  454  sudo apt-get remove xdm
+  455  localepurge
+  456  update-grub
+  457  sudo update-grub
+  458  reboot
+  459  ls
+  460  cd Work/tf/
+  461  ls
+  462  source activate mlnd
+  463  ls
+  464  conda list env
+  465  ls
+  466  conda list env
+  467  conda env list
+  468  source activate mlnd3
+  469  ls
+  470  curl -h https://github.com/tensorflow/models/blob/master/slim/eval_image_classifier.py 
+  471  curl -H https://github.com/tensorflow/models/blob/master/slim/eval_image_classifier.py 
+  472  curl https://github.com/tensorflow/models/blob/master/slim/eval_image_classifier.py 
+  473  ls
+  474  la
+  475  ls -ltr
+  476  curl https://github.com/tensorflow/models/blob/master/slim/eval_image_classifier.py  > eval_image_classifier.py
+  477  vi eval_image_classifier.py 
+  478  rm ec
+  479  rm eval_image_classifier.py 
+  480  wget https://github.com/tensorflow/models/blob/master/slim/eval_image_classifier.py  > eval_image_classifier.py
+  481  ls
+  482  vi eval_image_classifier.py
+  483  wget https://github.com/tensorflow/models/blob/master/slim/eval_image_classifier.py  
+  484  ls -ltr
+  485  vi eval_image_classifier.py.
+  486  vi eval_image_classifier.py.1
+  487  vi eval_image_classifier.py.2
+  488  rm eval_image_classifier.py*
+  489  vi eval_image_classifier.py
+  490  #python eval_image_classifier.py --alsologtostderr --che
+  491  find . -type f -iname "*.ckpt"
+  492  ls
+  493  vi eval_image_classifier.py 
+  494  vi retrain
+  495  vi retrain.py 
+  496  python
+  497  conda install --channel https://conda.anaconda.org/conda-forge keras
+  498  jobs
+  499  fg
+  500  ls
+  501  vi label_image.py 
+  502  bazel
+  503  mkdir keras
+  504  cd keras/
+  505  vi run.py
+  506  cd ..
+  507  ll *
+  508  vi training_summaries/basic/validation/events.out.tfevents.1495784939.dsb-Inspiron-7437 
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd -
+  513  ls
+  514  ls train
+  515  ls training_summaries/basic/
+  516  find . -type f -iname "*.jpg"
+  517  find . -type f -iname "*.jpg" > t
+  518  vi t
+  519  rm t
+  520  ls
+  521  mkdir input
+  522  mkdir input/train
+  523  ln -fs invasive_species/harmless/* input/train/
+  524  ln -fs invasive_species/invasive/* input/train/
+  525  ls
+  526  cd -
+  527  ls
+  528  cd -
+  529  cd keras/
+  530  ls
+  531  vi run.py 
+  532  python run.py 
+  533  ln -fs ../train_labels.csv ../input/
+  534  vi run.py 
+  535  python run.py 
+  536  vi run.py 
+  537  python run.py 
+  538  conda install skimage
+  539  conda install from skimage import io, transform
+  540  import matplotlib.pyplot as plt
+  541  conda install scikit-image
+  542  python run.py 
+  543  ls ../input/train
+  544  ls ../input/train/1.jpg 
+  545  vi run.py 
+  546  python run.py 
+  547  ls ../input/train/1.jpg
+  548  vi run.py 
+  549  ls
+  550  pwd
+  551  vi run.py 
+  552  python 
+  553  firefox&
+  554  firefox &
+  555  firefox
+  556  eclipse
+  557  intellij
+  558  which java
+  559  which jre
+  560  which jdk
+  561  java
+  562  java -version
+  563  firefox &
+  564  sudo apt-get purge
+  565  sudo apt-get clean
+  566  sudo apt-get autoclean
+  567  sudo apt-get autoremove
+  568  eclipse
+  569  kate
+  570  kate
+  571  firefox
+  572  gvim peak1.java
+  573  ls
+  574  pwd
+  575  vi peak1.java
+  576  ls
+  577  vi peak1.java
+  578  la
+  579  ls -ltr
+  580  ls
+  581  ls -ltr
+  582  mkdir mkdir peak1java
+  583  cp peak1java_a.png peak2java_b.png peak1java/
+  584  ld peak1java
+  585  ls peak1java
+  586  cp peak1.java peak1java/
+  587  ls peak1java/
+  588  zip peak1.java
+  589  zip peak1java
+  590  ls
+  591  ls -ltr
+  592  zip peak1java.zip peak1java
+  593  ld
+  594  ls -ltr
+  595  rm peak1java/peak1java_a.png 
+  596  rm peak1java/peak2java_b.png 
+  597  ls
+  598  ls Downloada
+  599  ls Downloads
+  600  mv Downloads/png2pdf.pdf
+  601  mv Downloads/png2pdf.pdf peak1java/peak1.
+  602  ls peak1java
+  603  mv peak1java/peak1. peak1java/peak.pdf
+  604  ls peak1java
+  605  zip peak1java.zip peak1java
+  606  zip peak1java_final.zip peak1java
+  607  ls
+  608  which npm
+  609  ls
+  610  mkdir starter
+  611  cd starter
+  612  ls
+  613  sudo apt update
+  614  apt install nodejs
+  615  sudo apt install nodejs
+  616  nodejs --version
+  617  which npm
+  618  npm
+  619  sudo apt install npm
+  620  ls
+  621  pwd
+  622  git clone https://github.com/ryanwiemer/gatsby-starter-gcn-gitls
+  623  ls
+  624  pwd
+  625  ls
+  626  pwdd
+  627  ls
+  628  pwd
+  629  git clone https://github.com/ryanwiemer/gatsby-starter-gcn-git
+  630  git clone https://github.com/ryanwiemer/gatsby-starter-gcn.git
+  631  ls
+  632  cd gatsby-starter-gcn/
+  633  ls
+  634  npm i
+  635  which node
+  636  which nodejs
+  637  which npm
+  638  ls
+  639  pwd
+  640  which gatsby
+  641  ls ..
+  642* 
+  643  sudo apt update
+  644  sudo apt purge
+  645  sudo apt autoclean
+  646  sudo apt autoremove
+  647  sudo apt clean
+  648  sudo apt purge
+  649  sudo apt update
+  650  sudo apt list --upgradable 
+  651  npm i
+  652  sudo apt upgrade
+  653  npm i
+  654  sudo apt get gatsby
+  655  sudo apt get install gatsby
+  656  get autoremove 
+  657  apt install gatsby
+  658  sudo apt install gatsby
+  659  gatsby new gatsby-starter-gcn https://github.com/ryanwiemer/gatsby-starter-gcn.git
+  660  npm config delete prefix
+  661  npm config set prefix /usr/local
+  662  npm i -g gatsby-cli
+  663  sudo npm i -g gatsby-cli
+  664  npm -g ls --depth=0
+  665  sudo apt-get dist-upgrade 
+  666  restart
+  667  ls
+  668  history > hist1
