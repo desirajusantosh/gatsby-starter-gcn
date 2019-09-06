@@ -7,20 +7,8 @@ import Helmet from 'react-helmet'
 import Container from '../components/Container'
 import Pagination from '../components/Pagination'
 import SEO from '../components/SEO'
-import ContactForm from '../components/ContactForm'
 import config from '../utils/siteConfig'
-import Contact from '../pages/contact'
-import PageTitle from '../components/PageTitle'
-import styled from 'styled-components';
-import Img from "gatsby-image"
 
-const ImgWrapper = styled.div`
-
-  max-width: 300px;
-
-  margin-bottom: 1.45rem;
-
-`;
 const Index = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
   const featuredPost = posts[0].node
@@ -29,9 +17,29 @@ const Index = ({ data, pageContext }) => {
 
   return (
     <Layout>
-        <img src="./logos/share.jpg" alt="" width="10" height="10"/>
-        <PageTitle>RSVP</PageTitle>
-	<ContactForm />
+      <SEO />
+      {!isFirstPage && (
+        <Helmet>
+          <title>{`${config.siteTitle} - Page ${currentPage}`}</title>
+        </Helmet>
+      )}
+//      <Container>
+//        {isFirstPage ? (
+//          <CardList>
+//            <Card {...featuredPost} featured />
+//            {posts.slice(1).map(({ node: post }) => (
+//              <Card key={post.id} {...post} />
+//            ))}
+//          </CardList>
+//        ) : (
+//          <CardList>
+//            {posts.map(({ node: post }) => (
+//              <Card key={post.id} {...post} />
+//            ))}
+//          </CardList>
+//        )}
+//      </Container>
+      <Pagination context={pageContext} />
     </Layout>
   )
 }

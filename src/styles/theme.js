@@ -1,9 +1,21 @@
 const theme = {
+
+  breakpoints: ['40em', '52em', '64em'],
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
+  space: [0, 4, 8, 16, 32, 64, 128, 256],
+  fonts: {
+    sans: 'system-ui, sans-serif',
+    mono: 'Menlo, monospace',
+  },
+  shadows: {
+    small: '0 0 4px rgba(0, 0, 0, .125)',
+    large: '0 0 24px rgba(0, 0, 0, .125)',
+  },
   colors: {
-    base: '#121212', // Black
-    secondary: '#e9e9e9', // Medium Gray
-    tertiary: '#f3f3f3', // Light Gray
-    highlight: '#5b8bf7', // Light Blue
+    base: '#c99797', // Black
+    secondary: '#ffc300, // Medium Gray
+    tertiary: '#f8ebd4', // Light Gray
+    highlight: '#f8ebd4', // Light Blue
   },
   sizes: {
     maxWidth: '1050px',
